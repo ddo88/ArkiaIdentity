@@ -84,7 +84,7 @@ namespace ArkiaIdentity.Web.Startup
             app.UseStaticFiles();
 
             app.UseAuthentication();
-            app.UseJwtTokenMiddleware("IdentityBearer");
+            app.UseJwtTokenMiddleware();//("IdentityBearer");
             app.UseIdentityServer();
 
             //app.UseJwtTokenMiddleware();

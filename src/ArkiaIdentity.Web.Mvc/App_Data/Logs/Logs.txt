@@ -154,3 +154,612 @@ INFO  2018-05-11 14:14:41,906 [21   ] .Internal.Transports.WebSocketsTransport -
 INFO  2018-05-11 14:14:42,096 [5    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
 DEBUG 2018-05-11 14:14:42,157 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"50a43482-4e0a-4e8b-96c8-56c75ab38e86","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2018-05-11T14:14:42.1433786-05:00","Properties":{}}
 DEBUG 2018-05-11 14:14:42,218 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 50a43482-4e0a-4e8b-96c8-56c75ab38e86
+DEBUG 2018-05-11 14:59:28,295 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-11 14:59:28,387 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-05-11 14:59:28,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Web.Startup.ArkiaIdentityWebMvcModule, ArkiaIdentity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityWebCoreModule, ArkiaIdentity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityApplicationModule, ArkiaIdentity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:28,457 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-05-11 14:59:28,580 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 14:59:28,580 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 14:59:28,580 [1    ] o.Configuration.LanguageManagementConfig - Converted ArkiaIdentity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 14:59:28,580 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 14:59:29,152 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 14:59:30,331 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-11 14:59:30,386 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-11 14:59:30,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-11 14:59:30,463 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-11 14:59:30,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-11 14:59:30,658 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-11 14:59:30,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-11 14:59:30,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-11 14:59:30,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.CreateUserDto
+DEBUG 2018-05-11 14:59:30,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.UserDto
+DEBUG 2018-05-11 14:59:30,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-11 14:59:30,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-11 14:59:30,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-11 14:59:30,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.PermissionDto
+DEBUG 2018-05-11 14:59:30,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.RoleDto
+DEBUG 2018-05-11 14:59:30,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-11 14:59:30,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-11 14:59:30,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-05-11 14:59:33,026 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for authentication
+DEBUG 2018-05-11 14:59:33,030 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-in
+DEBUG 2018-05-11 14:59:33,034 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-out
+DEBUG 2018-05-11 14:59:33,058 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for challenge
+DEBUG 2018-05-11 14:59:33,083 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for forbid
+INFO  2018-05-11 14:59:34,302 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 14:59:34,476 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 14:59:34,614 [6    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 14:59:34,708 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 446.1333ms 500 text/html; charset=utf-8
+INFO  2018-05-11 14:59:47,107 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 14:59:47,137 [17   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 14:59:47,191 [17   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 14:59:47,233 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.2029ms 500 text/html; charset=utf-8
+INFO  2018-05-11 15:00:18,514 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2FHome%2FIndex  
+INFO  2018-05-11 15:00:18,527 [5    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 15:00:18,577 [5    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 15:00:18,626 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.362ms 500 text/html; charset=utf-8
+DEBUG 2018-05-11 15:02:00,005 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-11 15:02:00,086 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-05-11 15:02:00,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Web.Startup.ArkiaIdentityWebMvcModule, ArkiaIdentity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityWebCoreModule, ArkiaIdentity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityApplicationModule, ArkiaIdentity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:00,165 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-05-11 15:02:00,282 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:02:00,282 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:02:00,282 [1    ] o.Configuration.LanguageManagementConfig - Converted ArkiaIdentity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:02:00,282 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:02:00,891 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:02:02,078 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-11 15:02:02,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-11 15:02:02,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-11 15:02:02,215 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-11 15:02:02,247 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-11 15:02:02,423 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-11 15:02:02,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-11 15:02:02,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-11 15:02:02,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.CreateUserDto
+DEBUG 2018-05-11 15:02:02,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.UserDto
+DEBUG 2018-05-11 15:02:02,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-11 15:02:02,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-11 15:02:02,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-11 15:02:02,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.PermissionDto
+DEBUG 2018-05-11 15:02:02,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.RoleDto
+DEBUG 2018-05-11 15:02:02,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-11 15:02:02,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-11 15:02:02,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-05-11 15:02:04,714 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for authentication
+DEBUG 2018-05-11 15:02:04,718 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-in
+DEBUG 2018-05-11 15:02:04,742 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-out
+DEBUG 2018-05-11 15:02:04,765 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for challenge
+DEBUG 2018-05-11 15:02:04,789 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for forbid
+INFO  2018-05-11 15:02:06,065 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 15:02:06,214 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 15:02:06,356 [6    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 15:02:06,448 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 409.7245ms 500 text/html; charset=utf-8
+DEBUG 2018-05-11 15:05:59,295 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-11 15:05:59,452 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-05-11 15:05:59,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Web.Startup.ArkiaIdentityWebMvcModule, ArkiaIdentity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityWebCoreModule, ArkiaIdentity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,531 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityApplicationModule, ArkiaIdentity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,531 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,532 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,532 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,532 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:05:59,543 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-05-11 15:05:59,688 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:05:59,688 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:05:59,688 [1    ] o.Configuration.LanguageManagementConfig - Converted ArkiaIdentity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:05:59,688 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:06:00,416 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:06:02,136 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-11 15:06:02,224 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-11 15:06:02,279 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-11 15:06:02,320 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-11 15:06:02,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-11 15:06:02,610 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-11 15:06:02,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-11 15:06:02,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-11 15:06:02,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.CreateUserDto
+DEBUG 2018-05-11 15:06:02,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.UserDto
+DEBUG 2018-05-11 15:06:02,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-11 15:06:02,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-11 15:06:02,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-11 15:06:02,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.PermissionDto
+DEBUG 2018-05-11 15:06:02,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.RoleDto
+DEBUG 2018-05-11 15:06:02,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-11 15:06:02,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-11 15:06:02,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-05-11 15:06:05,607 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for authentication
+DEBUG 2018-05-11 15:06:05,611 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-in
+DEBUG 2018-05-11 15:06:05,635 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-out
+DEBUG 2018-05-11 15:06:05,659 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for challenge
+DEBUG 2018-05-11 15:06:05,685 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for forbid
+INFO  2018-05-11 15:06:06,584 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 15:06:06,739 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 15:06:06,850 [11   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 15:06:06,970 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 409.9653ms 500 text/html; charset=utf-8
+INFO  2018-05-11 15:06:16,202 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2FHome%2FIndex  
+INFO  2018-05-11 15:06:16,209 [12   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 15:06:16,273 [12   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 15:06:16,291 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.4632ms 500 text/html; charset=utf-8
+DEBUG 2018-05-11 15:16:34,823 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-11 15:16:34,915 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-05-11 15:16:34,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Web.Startup.ArkiaIdentityWebMvcModule, ArkiaIdentity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:34,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityWebCoreModule, ArkiaIdentity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:34,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityApplicationModule, ArkiaIdentity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:34,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:34,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:34,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:34,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:35,011 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-05-11 15:16:35,136 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:16:35,136 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:16:35,136 [1    ] o.Configuration.LanguageManagementConfig - Converted ArkiaIdentity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:16:35,136 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:16:35,691 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:16:36,849 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-11 15:16:36,916 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-11 15:16:36,964 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-11 15:16:36,995 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-11 15:16:37,027 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-11 15:16:37,207 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-11 15:16:37,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-11 15:16:37,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-11 15:16:37,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.CreateUserDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.UserDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.PermissionDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.RoleDto
+DEBUG 2018-05-11 15:16:37,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-11 15:16:37,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-11 15:16:37,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-05-11 15:16:39,628 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for authentication
+DEBUG 2018-05-11 15:16:39,632 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-in
+DEBUG 2018-05-11 15:16:39,662 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-out
+DEBUG 2018-05-11 15:16:39,694 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for challenge
+DEBUG 2018-05-11 15:16:39,724 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for forbid
+INFO  2018-05-11 15:16:40,858 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 15:16:41,007 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+ERROR 2018-05-11 15:16:41,131 [6    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authentication handler is configured to authenticate for the scheme: IdentityBearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ArkiaIdentity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-05-11 15:16:41,205 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 397.3921ms 500 text/html; charset=utf-8
+DEBUG 2018-05-11 15:17:35,994 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-11 15:17:36,084 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-05-11 15:17:36,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Web.Startup.ArkiaIdentityWebMvcModule, ArkiaIdentity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityWebCoreModule, ArkiaIdentity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityApplicationModule, ArkiaIdentity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:36,159 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-05-11 15:17:36,288 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:17:36,288 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:17:36,288 [1    ] o.Configuration.LanguageManagementConfig - Converted ArkiaIdentity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:17:36,288 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:17:36,858 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:17:38,034 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-11 15:17:38,093 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-11 15:17:38,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-11 15:17:38,184 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-11 15:17:38,219 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-11 15:17:38,423 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-11 15:17:38,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-11 15:17:38,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-11 15:17:38,485 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.CreateUserDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.UserDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.PermissionDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.RoleDto
+DEBUG 2018-05-11 15:17:38,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-11 15:17:38,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-11 15:17:38,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-05-11 15:17:40,854 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for authentication
+DEBUG 2018-05-11 15:17:40,858 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-in
+DEBUG 2018-05-11 15:17:40,886 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-out
+DEBUG 2018-05-11 15:17:40,891 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for challenge
+DEBUG 2018-05-11 15:17:40,917 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for forbid
+INFO  2018-05-11 15:17:41,879 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 15:17:42,036 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:42,048 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:42,097 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+WARN  2018-05-11 15:17:45,305 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-05-11 15:17:45,318 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-05-11 15:17:45,323 [6    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-05-11 15:17:45,367 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-05-11 15:17:45,383 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.HomeController.Index (ArkiaIdentity.Web.Mvc) in 355.7843ms
+INFO  2018-05-11 15:17:45,430 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3559.1291ms 302 
+INFO  2018-05-11 15:17:45,478 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2F  
+INFO  2018-05-11 15:17:45,513 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:45,554 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:45,588 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:47,752 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-05-11 15:17:50,538 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-05-11 15:17:52,084 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) in 6423.1038ms
+INFO  2018-05-11 15:17:52,133 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6642.0308ms 200 text/html; charset=utf-8
+INFO  2018-05-11 15:17:52,285 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636616486584260549  
+INFO  2018-05-11 15:17:52,291 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636616486720427763  
+INFO  2018-05-11 15:17:52,327 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636616486584260549  
+INFO  2018-05-11 15:17:52,332 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:52,350 [13   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:52,385 [13   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:52,426 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-05-11 15:17:52,432 [13   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:52,442 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:52,450 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:52,509 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 245.5791ms 200 application/javascript
+INFO  2018-05-11 15:17:52,563 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-11 15:17:52,593 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-11 15:17:52,750 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-11 15:17:52,781 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 293.729ms
+INFO  2018-05-11 15:17:52,814 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 554.4008ms 200 application/x-javascript
+INFO  2018-05-11 15:17:52,878 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:17:52,882 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 408.2065ms
+INFO  2018-05-11 15:17:52,887 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 652.5709ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:17:54,788 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/account/Login application/x-www-form-urlencoded 264
+INFO  2018-05-11 15:17:54,833 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:54,861 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:54,877 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:54,934 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) with arguments (ArkiaIdentity.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+DEBUG 2018-05-11 15:17:55,528 [11   ] ting.IdentityServerAuthenticationService - Augmenting SignInContext
+DEBUG 2018-05-11 15:17:55,547 [11   ] ting.IdentityServerAuthenticationService - Adding idp claim with value: local
+DEBUG 2018-05-11 15:17:55,587 [11   ] ting.IdentityServerAuthenticationService - Adding amr claim with value: pwd
+DEBUG 2018-05-11 15:17:55,618 [11   ] ting.IdentityServerAuthenticationService - Adding auth_time claim with value: 1526069875
+INFO  2018-05-11 15:17:55,649 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2018-05-11 15:17:55,695 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-05-11 15:17:55,963 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-11 15:17:55,985 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) in 1084.5582ms
+INFO  2018-05-11 15:17:55,995 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1228.2289ms 200 application/json; charset=utf-8
+INFO  2018-05-11 15:17:56,019 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 15:17:56,078 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:56,110 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:56,126 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:56,202 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-11 15:17:56,226 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.HomeController.Index (ArkiaIdentity.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-11 15:17:56,648 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2018-05-11 15:17:58,188 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.HomeController.Index (ArkiaIdentity.Web.Mvc) in 2055.0414ms
+INFO  2018-05-11 15:17:58,234 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2175.0021ms 200 text/html; charset=utf-8
+INFO  2018-05-11 15:17:58,394 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636616486584260549  
+INFO  2018-05-11 15:17:58,401 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636616486584260549  
+INFO  2018-05-11 15:17:58,486 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,521 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,530 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,535 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,626 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,668 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-11 15:17:58,674 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,680 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-11 15:17:58,716 [24   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-11 15:17:58,747 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 41.5809ms
+INFO  2018-05-11 15:17:58,763 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 384.4704ms 200 application/x-javascript
+INFO  2018-05-11 15:17:58,835 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:17:58,889 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 304.4923ms
+INFO  2018-05-11 15:17:58,908 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 517.0562ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:17:58,915 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr  
+INFO  2018-05-11 15:17:58,933 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,970 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:58,977 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:17:59,165 [5    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-11 15:17:59,278 [11   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-11 15:17:59,328 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"fea676cc-109b-4174-b050-8eba68a70fd5","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2018-05-11T15:17:59.3146209-05:00","Properties":{}}
+DEBUG 2018-05-11 15:17:59,394 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: fea676cc-109b-4174-b050-8eba68a70fd5
+DEBUG 2018-05-11 15:18:33,088 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-11 15:18:33,205 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-05-11 15:18:33,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Web.Startup.ArkiaIdentityWebMvcModule, ArkiaIdentity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityWebCoreModule, ArkiaIdentity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityApplicationModule, ArkiaIdentity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:33,290 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-05-11 15:18:33,445 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:18:33,445 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:18:33,445 [1    ] o.Configuration.LanguageManagementConfig - Converted ArkiaIdentity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:18:33,445 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-11 15:18:34,341 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-11 15:18:36,282 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-11 15:18:36,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-11 15:18:36,421 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-11 15:18:36,458 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-11 15:18:36,501 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-11 15:18:36,774 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-11 15:18:36,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-05-11 15:18:36,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-11 15:18:36,850 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.CreateUserDto
+DEBUG 2018-05-11 15:18:36,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Users.Dto.UserDto
+DEBUG 2018-05-11 15:18:36,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-11 15:18:36,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-11 15:18:36,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-11 15:18:36,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.PermissionDto
+DEBUG 2018-05-11 15:18:36,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Roles.Dto.RoleDto
+DEBUG 2018-05-11 15:18:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-11 15:18:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.MultiTenancy.Dto.TenantDto
+DEBUG 2018-05-11 15:18:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ArkiaIdentity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2018-05-11 15:18:39,421 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for authentication
+DEBUG 2018-05-11 15:18:39,425 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-in
+DEBUG 2018-05-11 15:18:39,428 [1    ] IdentityServer4.Startup                  - Using Identity.External as default scheme for sign-out
+DEBUG 2018-05-11 15:18:39,433 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for challenge
+DEBUG 2018-05-11 15:18:39,457 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default scheme for forbid
+INFO  2018-05-11 15:18:40,121 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-11 15:18:43,213 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:18:43,248 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:18:43,311 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:18:43,844 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-05-11 15:18:43,894 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.HomeController.Index (ArkiaIdentity.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-11 15:18:44,086 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Account/Logout  
+INFO  2018-05-11 15:18:44,136 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:18:44,179 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:18:44,213 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-11 15:18:46,552 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.AccountController.Logout (ArkiaIdentity.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-11 15:18:46,649 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2018-05-11 15:18:46,664 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2018-05-11 15:18:46,691 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2018-05-11 15:18:46,751 [13   ] ft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /Account/Login.
+INFO  2018-05-11 15:18:46,770 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.AccountController.Logout (ArkiaIdentity.Web.Mvc) in 2508.1015ms
+INFO  2018-05-11 15:18:46,824 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2727.4206ms 302 
+INFO  2018-05-11 15:18:46,978 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login  
+INFO  2018-05-11 15:18:47,077 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) with arguments (, , ) - ModelState is Valid
+INFO  2018-05-11 15:18:48,915 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-05-11 15:18:48,920 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2018-05-11 15:18:51,112 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) in 4065.9221ms
+INFO  2018-05-11 15:18:51,120 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4144.0747ms 200 text/html; charset=utf-8
+INFO  2018-05-11 15:18:51,395 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636616487167773632  
+INFO  2018-05-11 15:18:51,416 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636616487167773632  
+INFO  2018-05-11 15:18:51,453 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-11 15:18:51,498 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636616487311006817  
+INFO  2018-05-11 15:18:51,604 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-11 15:18:51,622 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-05-11 15:18:51,667 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 275.2765ms 200 application/javascript
+INFO  2018-05-11 15:18:51,847 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-11 15:18:51,910 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:18:51,929 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 478.4319ms
+INFO  2018-05-11 15:18:51,978 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 566.7174ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:18:52,010 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 405.7029ms
+INFO  2018-05-11 15:18:52,018 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 662.2368ms 200 application/x-javascript
+INFO  2018-05-11 15:18:52,202 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.HomeController.Index (ArkiaIdentity.Web.Mvc) in 8383.9669ms
+INFO  2018-05-11 15:18:52,212 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12122.4413ms 200 text/html; charset=utf-8
+INFO  2018-05-11 15:18:52,399 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636616487167773632  
+INFO  2018-05-11 15:18:52,412 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636616487167773632  
+INFO  2018-05-11 15:18:52,422 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-11 15:18:52,454 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-11 15:18:52,470 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-11 15:18:52,487 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 43.0372ms
+INFO  2018-05-11 15:18:52,502 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 131.7786ms 200 application/x-javascript
+INFO  2018-05-11 15:18:52,545 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:18:52,553 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 136.2202ms
+INFO  2018-05-11 15:18:52,596 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 193.3018ms 200 application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:18:52,748 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr  
+INFO  2018-05-11 15:18:52,893 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2018-05-11 15:18:52,898 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2018-05-11 15:18:52,915 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.2119ms 0 font/woff2
+INFO  2018-05-11 15:18:52,996 [11   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-11 15:18:53,149 [6    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-11 15:18:53,195 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"46b4addb-1aad-4faf-b3b1-99a6d1935d91","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2018-05-11T15:18:53.1839187-05:00","Properties":{}}
+DEBUG 2018-05-11 15:18:53,242 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 46b4addb-1aad-4faf-b3b1-99a6d1935d91
+DEBUG 2018-05-11 15:18:55,055 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 46b4addb-1aad-4faf-b3b1-99a6d1935d91
+INFO  2018-05-11 15:18:55,108 [13   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-11 15:18:55,168 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2398.3092ms 101 
+INFO  2018-05-11 15:18:56,985 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login  
+INFO  2018-05-11 15:18:57,025 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) with arguments (, , ) - ModelState is Valid
+INFO  2018-05-11 15:18:57,042 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-05-11 15:18:57,069 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ArkiaIdentity.Web.Controllers.AccountController.Login (ArkiaIdentity.Web.Mvc) in 68.8354ms
+INFO  2018-05-11 15:18:57,076 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.3839ms 200 text/html; charset=utf-8
+INFO  2018-05-11 15:18:57,242 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636616487167773632  
+INFO  2018-05-11 15:18:57,247 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636616487370643438  
+INFO  2018-05-11 15:18:57,250 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636616487167773632  
+INFO  2018-05-11 15:18:57,259 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\ddurano\Mis Documentos\project\Identity\src\ArkiaIdentity.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-05-11 15:18:57,370 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.5372ms 200 application/javascript
+INFO  2018-05-11 15:18:57,385 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-05-11 15:18:57,391 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-05-11 15:18:57,397 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 127.2214ms
+INFO  2018-05-11 15:18:57,403 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 204.8638ms 200 application/x-javascript
+INFO  2018-05-11 15:18:57,441 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-05-11 15:18:57,502 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-05-11 15:18:57,536 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 243.1016ms
+INFO  2018-05-11 15:18:57,551 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 342.2205ms 200 application/x-javascript; charset=utf-8
