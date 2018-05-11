@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
@@ -15,6 +16,11 @@ namespace ArkiaIdentity.Web.Startup
             {
                 services//.AddAuthentication(options=> { options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme; })
                     .AddAuthentication()
+                    .AddIdentityServerAuthentication("IdentityBearer", options =>
+                    {
+                        options.Authority = "http://localhost:5000/";
+                        options.RequireHttpsMetadata = false;
+                    })
                     .AddJwtBearer(options =>
                     {
                         options.Audience = configuration["Authentication:JwtBearer:Audience"];
