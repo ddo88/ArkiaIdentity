@@ -15,6 +15,7 @@ using ArkiaIdentity.Web.Resources;
 using ArkiaIdentity.Web.Configuration;
 using Abp.IdentityServer4;
 using ArkiaIdentity.Authorization.Users;
+using Swashbuckle.AspNetCore.Swagger;
 
 #if FEATURE_SIGNALR
 using Owin;
@@ -59,6 +60,24 @@ namespace ArkiaIdentity.Web.Startup
             services.AddSignalR();
 #endif
 
+            //
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Info { Title = "ArkiaIdentity API", Version = "v1" });
+                options.DocInclusionPredicate((docName, description) => true);
+
+                // Define the BearerAuth scheme that's in use
+                //options.AddSecurityDefinition("bearerAuth", new ApiKeyScheme()
+                //{
+                //    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                //    Name = "Authorization",
+                //    In = "header",
+                //    Type = "apiKey"
+                //});
+                //// Assign scope requirements to operations based on AuthorizeAttribute
+                //options.OperationFilter<SecurityRequirementsOperationFilter>();
+            });
+
             // Configure Abp and Dependency Injection
             return services.AddAbp<ArkiaIdentityWebMvcModule>(
                 // Configure Log4Net logging
@@ -99,16 +118,18 @@ namespace ArkiaIdentity.Web.Startup
             });
 #endif
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "defaultWithArea",
-                    template: "{area}/{controller=Home}/{action=Index}/{id?}");
+            app.UseMvcWithDefaultRoute();
+            
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "defaultWithArea",
+            //        template: "{area}/{controller=Home}/{action=Index}/{id?}");
 
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //});
         }
 
 #if FEATURE_SIGNALR

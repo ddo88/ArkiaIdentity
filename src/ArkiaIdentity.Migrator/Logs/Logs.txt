@@ -1,0 +1,29 @@
+﻿DEBUG 2018-05-12 20:34:41,181 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-12 20:34:41,617 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-05-12 20:34:43,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.Migrator.ArkiaIdentityMigratorModule, ArkiaIdentity.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityEntityFrameworkModule, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ArkiaIdentity.ArkiaIdentityCoreModule, ArkiaIdentity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:43,392 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-05-12 20:34:44,861 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ArkiaIdentity.EntityFrameworkCore.ArkiaIdentityDbContext, ArkiaIdentity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-12 20:34:46,390 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-05-12 20:34:46,483 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-12 20:34:46,499 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-12 20:34:46,515 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ArkiaIdentity
+DEBUG 2018-05-12 20:34:46,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+INFO  2018-05-12 20:34:47,564 [1    ] ArkiaIdentity.Migrator.Log               - Host database: server=tcp:arkiadb.database.windows.net,1433;initial catalog=ArkiaIdentityDB;persist security info=False;user id=*****;password=*****;multipleactiveresultsets=False;encrypt=True;trustservercertificate=False;connection timeout=30
+INFO  2018-05-12 20:34:47,579 [1    ] ArkiaIdentity.Migrator.Log               - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2018-05-12 20:34:55,122 [1    ] ArkiaIdentity.Migrator.Log               - HOST database migration started...
+INFO  2018-05-12 20:35:24,012 [1    ] ArkiaIdentity.Migrator.Log               - HOST database migration completed.
+INFO  2018-05-12 20:35:24,012 [1    ] ArkiaIdentity.Migrator.Log               - --------------------------------------------------------
+INFO  2018-05-12 20:35:24,829 [1    ] ArkiaIdentity.Migrator.Log               - All databases have been migrated.
+DEBUG 2018-05-12 20:35:46,334 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-05-12 20:35:46,334 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
