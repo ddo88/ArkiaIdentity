@@ -1,4 +1,5 @@
-﻿using IdentityServer4.Models;
+﻿using IdentityServer4;
+using IdentityServer4.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +41,26 @@ namespace ArkiaIdentity.Web.Configuration
                 {
                     new Secret("secret".Sha256())
                 }
+            },
+            new Client
+            {
+                ClientId = "openIdConnectClient",
+                ClientName = "Example Implicit Client Application",
+                AllowedGrantTypes = GrantTypes.Implicit,
+                AlwaysSendClientClaims = true,
+                RequireConsent = false,
+                AllowedScopes = new List<string>
+                {
+                    IdentityServerConstants.StandardScopes.OpenId,
+                    IdentityServerConstants.StandardScopes.Profile,
+                    IdentityServerConstants.StandardScopes.Email,
+                    "role",
+                    "customAPI"
+                },
+                RedirectUris = new List<string> {"https://localhost:44375/signin-oidc"},
+                PostLogoutRedirectUris = new List<string> { "https://localhost:44375" }
             }
+            ,
         };
         }
     }
