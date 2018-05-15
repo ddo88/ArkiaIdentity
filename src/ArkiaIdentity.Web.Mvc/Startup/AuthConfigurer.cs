@@ -21,6 +21,9 @@ namespace ArkiaIdentity.Web.Startup
                         options.Authority = "http://localhost:5000/";
                         options.RequireHttpsMetadata = false;
                     })
+                    //.AddOpenIdConnect(options => {
+                        
+                    //});
                     .AddJwtBearer(options =>
                     {
                         options.Audience = configuration["Authentication:JwtBearer:Audience"];
